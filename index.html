@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio</title>
+    <link rel="shortcut icon" href="./img/pngegg.png" type="image/x-icon">
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+</head>
+<body>
+
+    
+
+    <video id="video-background" autoplay muted loop>
+        <source src="./img/in-y2mate.com - Dark Background Web_1080p.mp4" type="video/mp4">
+    </video>
+
+    <div id="content-wrapper">
+        <div id="content">
+
+    <header>
+        <div class="logo">
+            <h1>Sanju Kumar Jha</h1>
+            <p>"Bringing Ideas to Life Through Code."</p>
+        </div>
+        <nav>
+            <ul>
+                <li><a href="#about">About Me</a></li>
+                <li><a href="#skills">Skills</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#resume">Resume</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+        <button id="theme-toggle">Toggle Theme</button>
+    </header>
+
+    <section id="about">
+        <h2>About Me</h2>
+        <div class="about-content">
+            <img src="./img/profile-8.png" class="clickable-image">
+            <p>Hi, I'm Sanju Kumar Jha, a passionate and dedicated web developer with a knack for creating dynamic and responsive websites. Currently, I'm pursuing a Bachelor's in Computer Applications (BCA) at Tecnia Institute of Advanced Studies, where I'm in my third year. My journey into the world of web development has equipped me with a robust set of technical skills and practical experience in various programming languages and technologies.</p>
+        </div>
+    </section>
+
+    <section id="skills">
+        <h2>Skills</h2>
+        <ul>
+            <li>HTML5</li>
+            <li>CSS3</li>
+            <li>JavaScript</li>
+            <li>MySQL</li>
+        </ul>
+    </section>
+
+    <section id="projects">
+        <h2>Projects</h2>
+        <div class="project">
+            <h3><u>Dashboard of Intecom</u></h3>
+            <p>The Intercom Dashboard is a sleek, modern, and fully responsive web application designed to provide users with an intuitive interface to monitor and manage intercom systems. This project showcases my ability to build dynamic and user-friendly web applications with a focus on responsive design and interactive features.</p>
+            <img src="./img/Dashboard SS.png" class="clickable-image">
+            <img src="./img/Dashboard SS dark.png" class="clickable-image">
+        </div>
+        <div class="project">
+            <h3><u>SanSocial</u></h3>
+            <p>Sansocial is an innovative social networking platform designed to connect people in a meaningful and engaging way. Unlike traditional social media sites, Sansocial focuses on fostering genuine interactions and community building. This project highlights my expertise in full-stack web development, user experience design, and my commitment to creating impactful digital solutions.</p>
+            <img src="./img/SanSocial.png" class="clickable-image">
+        </div>
+    </section>
+
+    <div id="overlay" class="overlay">
+        <button id="close-btn">Close</button>
+        <img id="overlay-image" src="" alt="Overlay Image">
+    </div>
+
+    <section id="resume">
+        <h2>Resume</h2>
+        <a href="./img/CV.pdf" download>Download Resume</a>
+    </section>
+
+    <section id="contact">
+        <h2>Contact Me</h2>
+        <p>Email: rjriva00@gmail.com</p>
+        <p>Phone: +91 98998 47165</p>
+        <form id="contact-form" action="mailto:rjriva00@gmail.com" method="post" enctype="text/plain">
+            <div class="form-group">
+                <label for="name">Your Name:</label>
+                <input type="text" id="name" name="name" required>
+            </div>
+            <div class="form-group">
+                <label for="email">Your Email:</label>
+                <input type="email" id="email" name="email" required>
+            </div>
+            <div class="form-group">
+                <label for="message">Message:</label>
+                <textarea id="message" name="message" rows="4" required></textarea>
+            </div>
+            <button type="submit">Send</button>
+        </form>
+    </section>   
+
+    <script src="script.js"></script>
+        </div>
+    </div> 
+</body>
+</html>
